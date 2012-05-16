@@ -1,16 +1,6 @@
-My son is in the beginning stages of learning arithmetic. Being the Internet savvy father,
-I immediately hooked him up with the Khan Academy videos. In the Basic Addition video,
-Sal Khan uses circles as items in the set whose value is expressed by the given integer.
-He calls these circles avocados -- a most delicious fruit.
+My son is in the beginning stages of learning arithmetic. Being the Internet savvy father, I immediately hooked him up with the Khan Academy videos. In the Basic Addition video, Sal Khan uses circles as items in the set whose value is expressed by the given integer. He calls these circles avocados -- a most delicious fruit.
 
-I like the idea of counting avocados. The downside is their prohibitive cost due
-to short shelf life, and how much space they would take up in the kitchen. My son
-took to counting on his fingers to solve addition problems, but that only gets him to
-10. I figured I could help him out and get him more comfortable with deliberately
-pressing keys on the computer keyboard by writing a short Python script to quiz him
-on basic arithmetic that displayed sets of avocados for each of the values. Being
-old school (or just really lazy), I wrote it to run on the command line. It looks
-something like this when run:
+I like the idea of counting avocados. The downside is their prohibitive cost due to short shelf life, and how much space they would take up in the kitchen. My son took to counting on his fingers to solve addition problems, but that only gets him to 10. I figured I could help him out and get him more comfortable with deliberately pressing keys on the computer keyboard by writing a short Python script to quiz him on basic arithmetic that displayed sets of avocados for each of the values. Being old school (or just really lazy), I wrote it to run on the command line. It looks something like this when run:
 
 ¢ python visual_arithmetic.py
    1	o
@@ -36,12 +26,7 @@ Correct!
 ====
 ?
 
-Since I want him to be able to use it for more than a few weeks, I made it configurable
-via command line arguments. You can set the maximum value that the augend and addend can
-be (--max [n]) (1- and 2-digit numbers work best for the display routine). Beyond addition,
-you can configure it to do subtraction (--subtraction) (non-negative differences only),
-or both addition and subtraction (--both). And you can configure the number of problems
-to ask (--count [n]). Type in a wrong answer and the problem is repeated.
+Since I want him to be able to use it for more than a few weeks, I made it configurable via command line arguments. You can set the maximum value that the augend and addend can be (--max [n]) (1- and 2-digit numbers work best for the display routine). Beyond addition, you can configure it to do subtraction (--subtraction) (non-negative differences only), or both addition and subtraction (--both). And you can configure the number of problems to ask (--count [n]). Type in a wrong answer and the problem is repeated.
 
 It's not Earth-shattering programming. But then, not everything has to be.
 
